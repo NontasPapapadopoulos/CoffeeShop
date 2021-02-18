@@ -6,14 +6,14 @@ public class Main {
 
 
         Customer nondas = new Customer("Nondas", "Fredo Espresso");
-        Customer psarakas = new Customer("nikos", "Ice latte caramel");
+        Customer nikos = new Customer("nikos", "Ice latte caramel");
         Customer stauri = new Customer("Stauri","Frappe");
         Customer giannis = new Customer("Giannis", "filter coffe");
 
         CoffeAttendent employee = new CoffeAttendent();
 
 
-//
+
         employee.takeOrder(nondas);
         employee.takeOrder(nikos);
         employee.takeOrder(stauri);
